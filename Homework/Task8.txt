@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+
+public class p1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите 10 чисел");
+        int n;
+        int sum = 0;
+        int i = 10;
+for (i = 4; i>0; i--) {
+    int b = scanner.nextInt();
+    if ((b + 3) % 10 == 0)
+        sum = (sum + b);
+}
+        System.out.println("Сумма чисел заканчивающихся на 7: " + sum);
+
+    }
+}

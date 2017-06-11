@@ -1,0 +1,11 @@
+public class T3 { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.println("Please write a"); 
+int a = scanner.nextInt(); 
+System.out.println("Please write b"); 
+int b = scanner.nextInt(); 
+int d = a - b; 
+System.out.println("a - b = " + d); 
+} 
+}

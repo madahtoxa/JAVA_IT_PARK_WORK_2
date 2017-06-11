@@ -1,0 +1,14 @@
+class Program {
+    public static void main(String args[]) {
+        char a = '3';
+        char b = '2';
+        char c = '3';
+        char d = '1';
+        int inta = a - '0';
+        int intb = b - '0';
+        int intc = c - '0';
+        int intd = d - '0';
+        int x = (inta*1000)+(intb*100)+(intc*10)+intd;
+        System.out.print(x);
+    }
+}

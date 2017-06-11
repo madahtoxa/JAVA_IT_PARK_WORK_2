@@ -1,0 +1,23 @@
+public class T2 { 
+public static void main (String[] args){ 
+Scanner scanner = new Scanner(System.in); 
+System.out.println("Enter dec"); 
+int a = scanner.nextInt(); 
+int bin1 = a % 2; 
+int bin2 = (a/2) % 2; 
+int bin3 = ((a/2)/2) % 2; 
+int bin4 = (((a/2)/2)/2) % 2; 
+int bin5 = ((((a/2)/2)/2)/2) % 2; 
+int bin6 = (((((a/2)/2)/2)/2)/2) % 2; 
+int bin7 = ((((((a/2)/2)/2)/2)/2)/2) % 2; 
+int bin8 = (((((((a/2)/2)/2)/2)/2)/2)/2) % 2; 
+System.out.print(bin1); 
+System.out.print(bin2); 
+System.out.print(bin3); 
+System.out.print(bin4); 
+System.out.print(bin5); 
+System.out.print(bin6); 
+System.out.print(bin7); 
+System.out.print(bin8); 
+} 
+}

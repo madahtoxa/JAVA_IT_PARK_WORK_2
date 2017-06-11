@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class p1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("¬ведите 10 чисел");
+        int n = 10;
+        int sum = 0;
+        int i = 10;
+        for (i = 10; i>0; i--){
+            int b = scanner.nextInt();
+            if (b%2==0);
+                else {
+                sum +=b;}
+            {
+            }
+        }
+        System.out.println("—умма не четных чисел: " + sum);
+    }
+}
